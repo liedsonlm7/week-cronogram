@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronograma de Estudos</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header-container">
+        <h1>Cronograma Semanal de Estudos</h1>
+        <button id="toggle-theme">Alternar Tema</button>
+      </header>
+    
+      <nav class="week-buttons">
+        <button onclick="mostrarDia('segunda')">Segunda</button>
+        <button onclick="mostrarDia('terca')">Terça</button>
+        <button onclick="mostrarDia('quarta')">Quarta</button>
+        <button onclick="mostrarDia('quinta')">Quinta</button>
+        <button onclick="mostrarDia('sexta')">Sexta</button>
+        <button onclick="mostrarDia('sabado')">Sábado</button>
+      </nav>
+    
+      <main id="conteudo">
+        <p>Selecione um dia para ver as atividades!</p>
+      </main>
+  </div>
+  
+</body> 
+</html>
